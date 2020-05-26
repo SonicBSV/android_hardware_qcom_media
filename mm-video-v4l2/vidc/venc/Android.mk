@@ -103,13 +103,13 @@ endif
 
 # Common Includes
 libmm-venc-inc      := $(LOCAL_PATH)/inc
-libmm-venc-inc      += hardware/qcom/media-caf/msm8998/mm-video-v4l2/vidc/common/inc
-libmm-venc-inc      += hardware/qcom/media-caf/msm8998/mm-core/inc
-libmm-venc-inc      += hardware/qcom/media-caf/msm8998/libstagefrighthw
+libmm-venc-inc      += hardware/qcom/media/msm8998/mm-video-v4l2/vidc/common/inc
+libmm-venc-inc      += hardware/qcom/media/msm8998/mm-core/inc
+libmm-venc-inc      += hardware/qcom/media/msm8998/libstagefrighthw
 libmm-venc-inc      += $(TARGET_OUT_HEADERS)/qcom/display
 libmm-venc-inc      += $(TARGET_OUT_HEADERS)/adreno
-libmm-venc-inc      += hardware/qcom/media-caf/msm8998/libc2dcolorconvert
-libmm-venc-inc      += hardware/qcom/media-caf/msm8998/hypv-intercept
+libmm-venc-inc      += hardware/qcom/media/msm8998/libc2dcolorconvert
+libmm-venc-inc      += hardware/qcom/media/msm8998/hypv-intercept
 libmm-venc-inc      += $(TARGET_OUT_HEADERS)/libvqzip
 libmm-venc-inc      += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 ifeq ($(call is-board-platform-in-list, $(TARGETS_THAT_SUPPORT_PQ)),true)
