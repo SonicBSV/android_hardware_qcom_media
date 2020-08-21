@@ -24,9 +24,9 @@ endif
 # ---------------------------------------------------------------------------------
 
 libmm-vidc-inc      := $(LOCAL_PATH)/inc
-libmm-vidc-inc      += hardware/qcom/media/msm8998/mm-core/inc
+libmm-vidc-inc      += hardware/qcom/msm8998/media/mm-core/inc
 libmm-vidc-inc      += $(TARGET_OUT_HEADERS)/qcom/display
-libmm-vidc-inc      += hardware/qcom/media/msm8998/libc2dcolorconvert
+libmm-vidc-inc      += hardware/qcom/msm8998/media/libc2dcolorconvert
 libmm-vidc-inc      += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 
 LOCAL_MODULE                    := libOmxVidcCommon
