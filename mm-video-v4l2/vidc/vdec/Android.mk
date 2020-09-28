@@ -82,7 +82,6 @@ include $(CLEAR_VARS)
 libmm-vdec-inc          := $(LOCAL_PATH)/inc
 libmm-vdec-inc          += hardware/qcom/msm8998/media/mm-video-v4l2/vidc/common/inc
 libmm-vdec-inc          += hardware/qcom/msm8998/media/mm-core/inc
-libmm-vdec-inc          += $(TARGET_OUT_HEADERS)/qcom/display
 libmm-vdec-inc          += $(TARGET_OUT_HEADERS)/adreno
 libmm-vdec-inc          += hardware/qcom/msm8998/media/libc2dcolorconvert
 libmm-vdec-inc          += hardware/qcom/msm8998/media/hypv-intercept
@@ -179,7 +178,8 @@ LOCAL_HEADER_LIBRARIES := \
         media_plugin_headers \
         libnativebase_headers \
         libutils_headers \
-        libhardware_headers
+        libhardware_headers \
+        display_headers
 
 LOCAL_C_INCLUDES              += $(libmm-vdec-inc)
 LOCAL_ADDITIONAL_DEPENDENCIES := $(libmm-vdec-add-dep)
